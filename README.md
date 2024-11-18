@@ -2,16 +2,14 @@ A simple full-stack favorite city manager.
 
 ## Full Stack Tech Eval 
 
-First, run the development server:
+[Online Demo link at the bottom of this readme, otherwise...]
+
+*** Supabase Client credentials are needed. Send me a message if you need a copy of the environment variables. ***
+
+Then, run a dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
@@ -37,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Online Demo
 
-
+https://full-stack-tech-eval.onrender.com
 
 
 
