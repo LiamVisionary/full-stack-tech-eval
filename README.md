@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A simple full-stack favorite city manager.
 
-## Getting Started
+## Full Stack Tech Eval 
 
 First, run the development server:
 
@@ -14,23 +14,29 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Data Persistence
 
-## Learn More
+• Simple data persistence via local storage. Can be tested by disconnecting from the internet and refreshing the page. 
+• Data will load immediately from local storage if available, while simultaneously retrieving the latest data from the backend. 
 
-To learn more about Next.js, take a look at the following resources:
+## API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+• GET  /items => retrieves items from a supabase postgres db
+• POST /items => adds an item to the db (pass in name via the request body)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Additional
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+• Data is set to lowercase upon submission to the db to simplify the uniqueness constraint check.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+• UI is bare minimum. If desired, I can whip up something fancy with animations, feedback effects, better composition, color scheme, etc. Just let me know!
+
+## Online Demo
+
+
+
+
+
