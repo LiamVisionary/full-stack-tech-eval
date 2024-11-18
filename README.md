@@ -20,6 +20,7 @@ Open [http://localhost:3000](http://localhost:3000)
 ## Data Persistence
 
 • Simple data persistence via local storage. Can be tested by disconnecting from the internet and refreshing the page. 
+
 • Data will load immediately from local storage if available, while simultaneously retrieving the latest data from the backend. 
 
 ## API
